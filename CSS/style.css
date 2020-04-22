@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color:  #fff;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 100px;
+    margin: 25px;
+}
+
+.image {
+    width: 375px;
+}
+
+.important-text {
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 39px;
+}
+
+.first-text {
+    margin-top: 50px;
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+
+.second-text {
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+}
+
+
+.main-text {
+    text-align: center;
+    margin: 20px 25px;
+    padding: 10px;
+    color: hsl(0, 36%, 70%);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.email {
+    margin: 20px 25px 30px 25px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+
+.form-control {
+    border: 1px solid hsl(0, 36%, 70%);
+    opacity: 0.5;
+    border-radius: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    padding: 15px 15px 15px 25px;
+    width: 80%;
+    height: 47px;
+    position: absolute;
+}
+
+::placeholder {
+    color: hsl(0, 36%, 70%);
+    opacity: 0.8;
+}
+
+.confirmation {
+    height:47px;
+    border: none;
+    border-radius: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    padding: 6px 27px 0 27px;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    font-weight: 300;
+    position: relative;
+    margin-left: 250px;
+    box-shadow: 5px 5px 30px hsl(0, 36%, 70%);
+}
+
+.confirmation:hover {
+    cursor: pointer;
+}
+
+.confirmation:active {
+    background-image: linear-gradient(135deg, hsl(0, 74%, 92%), hsl(0, 51%, 83%));
+}
+
+/* footer */
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color:  hsl(0, 36%, 70%); 
+}
