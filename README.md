@@ -1,4 +1,4 @@
-You can try it! Please access: https://base-apparel-coming-soon-master-isis.netlify.app/
+Give a try! Please access: https://base-apparel-coming-soon-master-isis.netlify.app/
 
 # Frontend Mentor - Base Apparel coming soon page
 
